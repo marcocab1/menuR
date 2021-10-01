@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
 
 html {
@@ -14,12 +13,47 @@ html {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    font-family: 'Noto Sans JP', sans-serif;
-    background: url() no-repeat center center fixed;
-    background-size: cover;
+    font-size: large;
+ 
+    padding: 0px 0 100px 0;
+    background:#D8DADD;
    
   }
   
+  .title{
+    color:#141313;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 150px 0 30px 0;
+    font-size: large;
+    font-style:inherit;
+
+}
+
+.title::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    left: 0;
+
+}
+  
+
+
+.btn btn-outline-primary{
+
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding: 150px 0 30px 0;
+  font-size: large;
+  font-style:inherit;
+ 
+}
+
+
   .logo{
     text-decoration:none;
     font-size: 20px;
@@ -29,8 +63,8 @@ html {
     position: center;
  
     display:flex;
-    padding:0;
-}
+    padding:0;  
+  }
  
 
   nav{
@@ -41,6 +75,24 @@ html {
       background-color:  #D35400 ;
   }
 
+  .title{
+    color:#141313;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 115px 0 30px 0;
+    font-size: large;
+    font-style:inherit;
+
+}
+.title::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    left: 0;
+
+}
   .ham{
     display:none;
     background-color:transparent;
@@ -75,7 +127,7 @@ html {
       font-weight:600;
   }
   .enlaces-menu li:hover{
-      background-color: #E67E22;
+    background-color: #E67E22;
   }
 
 
